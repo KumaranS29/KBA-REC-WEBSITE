@@ -1,0 +1,126 @@
+{
+  "teams": [
+    {
+      "name": "Ambassador",
+      "members": [
+        { "name": "Raghavan S", "role": "Ambassador", "linkedin": "#", "photo": "/images/students/Raghavan.png" },
+        { "name": "Laksheta SV", "role": "Ambassador", "linkedin": "#", "photo": "/images/students/LakshetaSV.jpg" }
+      ]
+    },
+    {
+      "name": "Operations",
+      "members": [
+        { "name": "Varsha Thomas", "role": "Operation Executive", "linkedin": "#", "photo": "/images/students/VARSHATHOMAS.jpg" }
+      ]
+    },
+    {
+      "name": "Technology Executives",
+      "members": [
+        { "name": "Swetha J", "role": "Technology Executive", "linkedin": "#", "photo": "/images/students/SWETHAJ.jpeg" }
+      ]
+    },
+    {
+      "name": "Secretary",
+      "members": [
+        { "name": "Mymoon Beevi B", "role": "Secretary", "linkedin": "#", "photo": "/images/students/MYMOONBEEVI.jpg" }
+      ]
+    },
+    {
+      "name": "Treasurer",
+      "members": [
+        { "name": "Tanisha C A", "role": "Treasurer", "linkedin": "#", "photo": "/images/students/TANISHA.jpg" }
+      ]
+    },
+    {
+      "name": "Empowerment",
+      "members": [
+        { "name": "Srivarshni S", "role": "Empowerment Lead", "linkedin": "#", "photo": "/images/students/SRIVARSHNI.jpeg" },
+        { "name": "Girija", "role": "Empowerment Team", "linkedin": "#", "photo": "/images/students/GIRIJA.jpg" },
+        { "name": "Tejaswin", "role": "Empowerment Team", "linkedin": "#", "photo": "/images/students/TEJASWIN.jpg" },
+        { "name": "SUDHARSHAN KRISHNAA L K", "role": "Empowerment Team", "linkedin": "#", "photo": "/images/students/SUDHARSHAN.jpg" },
+        { "name": "Kamalesh S P", "role": "Empowerment Team", "linkedin": "#", "photo": "/images/students/Kamalesh.jpg" }
+      ]
+    },
+    {
+      "name": "Community Partners",
+      "members": [
+        { "name": "Gokulakrishnan K", "role": "Community Partner", "linkedin": "#", "photo": "/images/students/GOKULAKRISHNAN.jpg" }
+      ]
+    },
+    {
+      "name": "Design",
+      "members": [
+        { "name": "HARIRAJ G", "role": "Design Lead", "linkedin": "#", "photo": "/images/students/HARIRAJ.jpg" },
+        { "name": "DivyaDharsini K", "role": "Design Co-Lead", "linkedin": "#", "photo": "/images/students/divyadharshini.jpg" },
+        { "name": "Veronica Regina Paul", "role": "Design Team", "linkedin": "#", "photo": "/images/students/VERONICA.jpg" },
+        { "name": "Velan", "role": "Design Team", "linkedin": "#", "photo": "/images/students/VELANARUL.jpeg" },
+        { "name": "Sreya G", "role": "Design Team", "linkedin": "#", "photo": "/images/students/SREYAG.jpg" }
+      ]
+    },
+    {
+      "name": "Events",
+      "members": [
+        { "name": "Sree Varssini K S", "role": "Event Lead", "linkedin": "#", "photo": "/images/students/SREEVARSSINI.jpg" },
+        { "name": "Sharvesh R", "role": "Event Associate", "linkedin": "#", "photo": "/images/students/SARVESHR.jpg" },
+        { "name": "Sreyaskari M", "role": "Event Associate", "linkedin": "#", "photo": "/images/students/SREYASKARI.jpg" },
+        { "name": "Madhumitha P", "role": "Event Associate", "linkedin": "#", "photo": "/images/students/MADHUMITHA.jpg" },
+        { "name": "Ridhanya J", "role": "Event Associate", "linkedin": "#", "photo": "/images/students/RIDHANYA.jpg" }
+      ]
+    },
+    {
+      "name": "PR & Media",
+      "members": [
+        { "name": "Miruthula KG", "role": "PR Lead", "linkedin": "#", "photo": "/images/students/MIRUTHULA.jpg" },
+        { "name": "Tejushree Sanjeevi Kumar", "role": "PR Co-Lead", "linkedin": "#", "photo": "/images/students/TEJUSHREE.jpg" },
+        { "name": "Rama Thulasi G", "role": "PR Associate", "linkedin": "#", "photo": "/images/students/RamaThulasiG.jpg" },
+        { "name": "SarveshWar P", "role": "PR Associate", "linkedin": "#", "photo": "/images/students/SarveshwarP.jpg" },
+        { "name": "Madhumitha B M", "role": "PR Associate", "linkedin": "#", "photo": "/images/students/MadhumithaBM.jpg" }
+      ]
+    },
+    {
+      "name": "Technology",
+      "members": [
+        { "name": "Manicka Meenakshi S", "role": "Tech Lead", "linkedin": "#", "photo": "/images/students/ManickaMeenakshiS.jpg" },
+        { "name": "Ganeshan M", "role": "Tech Co-Lead", "linkedin": "#", "photo": "/images/students/GaneshanM.jpeg" },
+        { "name": "S Darshan", "role": "Tech Associate", "linkedin": "#", "photo": "/images/students/SDarshan.jpg" },
+        { "name": "Farheen Tabassum H", "role": "Tech Associate", "linkedin": "#", "photo": "/images/students/FarheenTabassumH.jpg" },
+        { "name": "Subramanian S", "role": "Tech Associate", "linkedin": "#", "photo": "/images/students/SubramanianS.jpg" },
+        { "name": "Ashna V", "role": "Tech Associate", "linkedin": "#", "photo": "/images/students/AshnaV.jpeg" },
+        { "name": "Prathyush R", "role": "Full Stack Developer", "linkedin": "#", "photo": "/images/students/PrathyushR.jpg" },
+        { "name": "Uma AL", "role": "Full Stack Developer", "linkedin": "#", "photo": "/images/students/UmaAL.jpeg" },
+        { "name": "Kumaran S", "role": "Full Stack Developer", "linkedin": "#", "photo": "/images/students/KumaranS.jpg" },
+        { "name": "DAYANITHI V", "role": "Full Stack Developer", "linkedin": "#", "photo": "/images/students/DayanithiV.jpg" },
+        { "name": "Pranav Kumar J", "role": "Cloud Engineer", "linkedin": "#", "photo": "/images/students/PranavKumarJ.jpg" },
+        { "name": "Vishwak S", "role": "Cloud Engineer", "linkedin": "#", "photo": "/images/students/VishwakS.jpg" },
+        { "name": "Kannan R", "role": "Embedded Engineer", "linkedin": "#", "photo": "/images/students/KannanR.jpg" }
+      ]
+    },
+    {
+      "name": "Blockchain",
+      "members": [
+        { "name": "Jagadeshwaran Parthiban", "role": "Blockchain Lead", "linkedin": "#", "photo": "/images/students/JagadeshwaranParthiban.jpg" },
+        { "name": "Srihari S", "role": "Blockchain Associate", "linkedin": "#", "photo": "/images/students/SrihariS.jpg" },
+        { "name": "Keshavallu B", "role": "Blockchain Associate", "linkedin": "#", "photo": "/images/students/KeshavalluB.jpg" }
+      ]
+    },
+    {
+      "name": "Research",
+      "members": [
+        { "name": "Monic Auditya A", "role": "Research Lead", "linkedin": "#", "photo": "/images/students/MonicAudityaA.jpg" },
+        { "name": "Subramanian N", "role": "Research Associate", "linkedin": "#", "photo": "/images/students/SubramanianN.jpg" },
+        { "name": "Manisha G", "role": "Research Associate", "linkedin": "#", "photo": "/images/students/ManishaG.webp" },
+        { "name": "Thirumurugan", "role": "Research Associate", "linkedin": "#", "photo": "/images/students/Thirumurugan.jpg" },
+        { "name": "Deepa S", "role": "Research Associate", "linkedin": "#", "photo": "/images/students/DeepaS.jpg" }
+      ]
+    },
+    {
+      "name": "Media",
+      "members": [
+        { "name": "Renithjoel R R", "role": "Media Associate", "linkedin": "#", "photo": "/images/students/RenithjoelRR.jpg" },
+        { "name": "Shanmuganathan S", "role": "Media Associate", "linkedin": "#", "photo": "/images/students/ShanmuganathanS.jpg" },
+        { "name": "Giridharan E", "role": "Media Associate", "linkedin": "#", "photo": "/images/students/GiridharanE.jpg" }
+      ]
+    }
+  ]
+}
+
