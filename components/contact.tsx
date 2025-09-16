@@ -31,7 +31,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="py-20 bg-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-screen-xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">Contact Us</h2>
           <p className="text-xl text-blue-700 text-pretty">
@@ -44,7 +44,7 @@ export function Contact() {
           <div className="space-y-8">
             <Card className="border-blue-200 hover:border-blue-400 transition-colors">
               <CardContent className="p-8">
-                <div className="flex items-center space-x-4 mb-4">
+                <div className="flex flex-col sm:flex-row sm:items-center items-start sm:space-x-4 space-y-3 sm:space-y-0 mb-4">
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
                     <Mail className="h-8 w-8 text-blue-600" />
                   </div>
@@ -52,7 +52,7 @@ export function Contact() {
                     <h3 className="font-bold text-blue-900 text-xl mb-2">Email</h3>
                     <a
                       href="mailto:kbaclub@rajalakshmi.edu.in"
-                      className="text-blue-700 hover:text-blue-900 hover:underline transition-colors text-lg"
+                      className="text-blue-700 hover:text-blue-900 hover:underline transition-colors text-lg break-all"
                     >
                       kbaclub@rajalakshmi.edu.in
                     </a>
@@ -63,7 +63,7 @@ export function Contact() {
 
             <Card className="border-indigo-200 hover:border-indigo-400 transition-colors">
               <CardContent className="p-8">
-                <div className="flex items-center space-x-4 mb-4">
+                <div className="flex flex-col sm:flex-row sm:items-center items-start sm:space-x-4 space-y-3 sm:space-y-0 mb-4">
                   <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center">
                     <Instagram className="h-8 w-8 text-indigo-600" />
                   </div>
@@ -73,7 +73,7 @@ export function Contact() {
                       href="https://instagram.com/kba.rec"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-indigo-700 hover:text-indigo-900 hover:underline transition-colors text-lg"
+                      className="text-indigo-700 hover:text-indigo-900 hover:underline transition-colors text-lg break-words"
                     >
                       @kba.rec
                     </a>
@@ -84,7 +84,7 @@ export function Contact() {
 
             <Card className="border-cyan-200 hover:border-cyan-400 transition-colors">
               <CardContent className="p-8">
-                <div className="flex items-center space-x-4 mb-4">
+                <div className="flex flex-col sm:flex-row sm:items-center items-start sm:space-x-4 space-y-3 sm:space-y-0 mb-4">
                   <div className="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center">
                     <Linkedin className="h-8 w-8 text-cyan-600" />
                   </div>
@@ -94,7 +94,7 @@ export function Contact() {
                       href="https://linkedin.com/company/kba-club-rec"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-cyan-700 hover:text-cyan-900 hover:underline transition-colors text-lg"
+                      className="text-cyan-700 hover:text-cyan-900 hover:underline transition-colors text-lg break-words"
                     >
                       KBA Club REC
                     </a>
@@ -105,13 +105,13 @@ export function Contact() {
 
             <Card className="border-blue-200 hover:border-blue-400 transition-colors">
               <CardContent className="p-8">
-                <div className="flex items-start space-x-4">
+                <div className="flex flex-col sm:flex-row sm:items-start items-start sm:space-x-4 space-y-4 sm:space-y-0">
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
                     <MapPin className="h-8 w-8 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-bold text-blue-900 mb-3 text-xl">Location</h3>
-                    <p className="text-blue-700 text-lg leading-relaxed">
+                    <p className="text-blue-700 text-lg leading-relaxed break-words">
                       Rajalakshmi Engineering College
                       <br />
                       Rajalakshmi Nagar, Thandalam
@@ -120,11 +120,11 @@ export function Contact() {
                       <br />
                       India
                     </p>
-                    <div className="flex space-x-4 mt-6">
+                    <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0 mt-6 items-start sm:items-center">
                       <Button
                         variant="outline"
                         size="default"
-                        className="border-blue-300 text-blue-700 hover:bg-blue-50 bg-transparent text-base px-6 py-3"
+                        className="border-blue-300 text-blue-700 hover:bg-blue-50 bg-transparent text-base px-6 py-3 w-full sm:w-auto"
                         onClick={() => window.open("https://rajalakshmi.org/", "_blank")}
                       >
                         <ExternalLink className="h-5 w-5 mr-2" />
@@ -133,7 +133,7 @@ export function Contact() {
                       <Button
                         variant="outline"
                         size="default"
-                        className="border-blue-300 text-blue-700 hover:bg-blue-50 bg-transparent text-base px-6 py-3"
+                        className="border-blue-300 text-blue-700 hover:bg-blue-50 bg-transparent text-base px-6 py-3 w-full sm:w-auto"
                         onClick={() =>
                           window.open(
                             "https://maps.google.com/?q=Rajalakshmi+Engineering+College+Thandalam+Chennai",

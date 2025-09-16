@@ -6,13 +6,13 @@ import Image from "next/image"
 
 // Simple SVG icon components to replace lucide-react
 const Menu = () => (
-  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
   </svg>
 )
 
 const X = () => (
-  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
   </svg>
 )
@@ -31,13 +31,20 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-blue-100 shadow-sm">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-screen-xl">
         <div className="flex items-center justify-between h-16">
+          {/* Left Logo + Name */}
           <div className="flex items-center space-x-3">
-            <Image src="/images/kba-logo.png" alt="KBA Logo" width={40} height={40} className="w-10 h-10" />
+            <Image
+              src="/images/kba-logo.png"
+              alt="KBA Logo"
+              width={56}
+              height={56}
+              className="w-12 h-12 md:w-14 md:h-14"
+            />
             <div>
-              <h1 className="font-bold text-lg text-blue-900">KBA Club</h1>
-              <p className="text-xs text-blue-600">Blockchain Innovation</p>
+              <h1 className="font-bold text-lg md:text-xl text-blue-900">KBA Club</h1>
+              <p className="text-xs md:text-sm text-blue-600">Blockchain Innovation</p>
             </div>
           </div>
 
@@ -54,12 +61,19 @@ export function Header() {
             ))}
           </nav>
 
+          {/* Right Logo (REC) */}
           <div className="hidden md:flex items-center space-x-3">
-            <div className="text-right">
-              <h2 className="font-bold text-sm text-purple-800">Rajalakshmi</h2>
-              <p className="text-xs text-purple-600">Engineering College</p>
-            </div>
-            <Image src="/images/rec-logo.png" alt="REC Logo" width={112} height={112} className="w-14 h-14" />
+            <Image
+              src="/images/rec-logo.png"
+              alt="REC Logo"
+              width={80}
+              height={80}
+              className="w-12 h-12 md:w-16 md:h-16 object-contain"
+            />
+            <h2 className="font-bold text-sm md:text-base text-purple-800 whitespace-nowrap">
+              Rajalakshmi Engineering <br></br>
+              College
+            </h2>
           </div>
 
           {/* Mobile Menu Button */}
@@ -76,7 +90,7 @@ export function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-blue-100">
-            <nav className="flex flex-col space-y-4">
+            <nav className="flex flex-col items-center space-y-4">
               {navItems.map((item) => (
                 <a
                   key={item.name}
@@ -88,12 +102,8 @@ export function Header() {
                 </a>
               ))}
             </nav>
-            <div className="flex items-center justify-center space-x-3 mt-4 pt-4 border-t border-blue-100">
-              <div className="text-center">
-                <h2 className="font-bold text-sm text-purple-800">Rajalakshmi Engineering College</h2>
-              </div>
-              <Image src="/images/rec-logo.png" alt="REC Logo" width={48} height={48} className="w-12 h-12" />
-            </div>
+
+      
           </div>
         )}
       </div>

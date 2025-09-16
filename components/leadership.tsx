@@ -13,7 +13,7 @@ export function Leadership() {
       description: "Leading REC with vision and innovation in engineering education",
       category: "Leadership",
       photo: "/images/faculty/principal-sir.jpg",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/murugesan-sn-b765a8162/",
     },
     {
       name: "Dr. Malathy",
@@ -21,7 +21,7 @@ export function Leadership() {
       description: "Driving excellence in Computer Science and Engineering",
       category: "Leadership",
       photo: "/images/faculty/malathy-cse.png",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/malathy-em-09b0b923/",
     },
   ]
 
@@ -31,14 +31,14 @@ export function Leadership() {
       role: "Professor & Dean (Academics), KBA REC-Advisory Chair",
       category: "Advisory Board",
       photo: "/images/faculty/murali-bhaskaran.png",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/murali-bhaskaran-venugopal-6b95832b/",
     },
     {
       name: "Dr. Kumar P",
       role: "Professor-CSE, KBA REC-Advisory Chair",
       category: "Advisory Committee",
       photo: "/images/faculty/kumar-p.png",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/dr-p-kumar-1129aa194/",
     },
   ]
 
@@ -48,28 +48,28 @@ export function Leadership() {
       role: "Professor & AHOD-CSE, Executive Member",
       initials: "MR",
       photo: "/images/faculty/muneeswari-mam.jpg",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/dr-muneeshwari-p-84aba561/",
     },
     {
       name: "Dr. Manoranjini J",
       role: "Associate Professor & Deputy HOD/CSE, Executive Member",
       initials: "MJ",
       photo: "/images/faculty/manoranji-mam.jpg",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/dr-manoranjini-j-14b0482b4/",
     },
     {
       name: "Mr. Bhuvaneswaran B",
       role: "Assistant Professor (SG), Executive Member",
       initials: "BB",
       photo: "/images/faculty/bhuvaneswaran-sir.png",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/bhuvaneswaranrec/",
     },
     {
       name: "Ms. Santhiya M",
       role: "Assistant Professor, Executive Member",
       initials: "SM",
       photo: "/images/faculty/santhiya-mam.png",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/santhiya-munusamy-4b938379/",
     },
   ]
 
