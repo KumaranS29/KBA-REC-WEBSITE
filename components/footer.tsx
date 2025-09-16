@@ -1,0 +1,141 @@
+"use client"
+
+import { Mail, Instagram, Linkedin, Heart, MapPin } from "lucide-react"
+import Image from "next/image"
+
+export function Footer() {
+  const quickLinks = [
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Partners", href: "#partners" },
+    { name: "Team", href: "#team" },
+    { name: "Contact", href: "#contact" },
+  ]
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId.replace("#", ""))
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
+  return (
+    <footer className="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          {/* Logo and Description */}
+          <div className="lg:col-span-2">
+            <div className="flex items-center space-x-3 mb-6">
+              <Image src="/images/kba-logo.png" alt="KBA Logo" width={48} height={48} className="w-12 h-12" />
+              <div>
+                <h3 className="font-bold text-2xl text-white">KBA Club</h3>
+                <p className="text-base text-blue-200">Rajalakshmi Engineering College</p>
+              </div>
+            </div>
+            <p className="text-blue-100 text-lg mb-6 max-w-lg leading-relaxed">
+              Empowering the next generation of blockchain innovators through hands-on education, research, and industry
+              collaboration at Rajalakshmi Engineering College.
+            </p>
+            <div className="space-y-2">
+              <div className="flex items-start space-x-2">
+                <MapPin className="h-6 w-6 text-blue-300 mt-0.5 flex-shrink-0" />
+                <div className="text-blue-100 text-base">
+                  <p>Rajalakshmi Engineering College</p>
+                  <p>Rajalakshmi Nagar, Thandalam</p>
+                  <p>Chennai, Tamil Nadu 602105</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h4 className="font-semibold text-white mb-6 text-xl">Quick Links</h4>
+            <ul className="space-y-3">
+              {quickLinks.map((link) => (
+                <li key={link.name}>
+                  <button
+                    onClick={() => scrollToSection(link.href)}
+                    className="text-blue-200 hover:text-white transition-colors duration-200 text-base text-left hover:translate-x-1 transform transition-transform"
+                  >
+                    {link.name}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Get in Touch */}
+          <div>
+            <h4 className="font-semibold text-white mb-6 text-xl">Connect With Us</h4>
+            <div className="space-y-4">
+              <div className="flex items-center space-x-3">
+                <Mail className="h-6 w-6 text-blue-300" />
+                <a
+                  href="mailto:kbaclub@rajalakshmi.edu.in"
+                  className="text-blue-200 hover:text-white transition-colors duration-200 text-base"
+                >
+                  kbaclub@rajalakshmi.edu.in
+                </a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Instagram className="h-6 w-6 text-blue-300" />
+                <a
+                  href="https://instagram.com/kba.rec"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-200 hover:text-white transition-colors duration-200 text-base"
+                >
+                  @kba.rec
+                </a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Linkedin className="h-6 w-6 text-blue-300" />
+                <a
+                  href="https://linkedin.com/company/kba-club-rec"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-200 hover:text-white transition-colors duration-200 text-base"
+                >
+                  KBA Club REC
+                </a>
+              </div>
+            </div>
+            <div className="mt-6 pt-6 border-t border-blue-700">
+              <p className="text-blue-200 text-base mb-3">Ready to innovate with blockchain?</p>
+              <button
+                onClick={() => scrollToSection("#contact")}
+                className="bg-white text-blue-900 px-6 py-3 rounded-lg text-base font-medium hover:bg-blue-50 transition-colors duration-200"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-blue-700 mt-12 pt-8">
+          <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+            <p className="text-blue-300 text-base">
+              © 2025 KBA Club Rajalakshmi Engineering College. All Rights Reserved.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6">
+              <div className="flex items-center space-x-4">
+                <a href="#" className="text-blue-300 hover:text-white text-base transition-colors duration-200">
+                  Privacy Policy
+                </a>
+                <a href="#" className="text-blue-300 hover:text-white text-base transition-colors duration-200">
+                  Terms of Service
+                </a>
+              </div>
+              <div className="flex items-center space-x-2 text-blue-300 text-base">
+                <span>Made with</span>
+                <Heart className="h-4 w-4 text-red-400 fill-current" />
+                <span>for blockchain education</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
