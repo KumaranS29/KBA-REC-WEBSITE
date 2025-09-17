@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Award, ExternalLink, Download } from "lucide-react"
+import { Award, Download } from "lucide-react"
 import Image from "next/image"
 
 export function Certificate() {
@@ -75,58 +75,6 @@ export function Certificate() {
                   Download Certificate
                 </motion.a>
               </div>
-            </div>
-          </motion.div>
-
-          {/* Info Cards */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            viewport={{ once: true }}
-            className="mt-10 sm:mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-[450px]:px-1"
-          >
-            <div className="text-center p-6 sm:p-10 bg-white rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 sm:mb-8">
-                <Award className="h-10 w-10 sm:h-12 sm:w-12 text-blue-600" />
-              </div>
-              <h4 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                What is KBA?
-              </h4>
-              <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-                Kerala Blockchain Academy (KBA) is a Centre of Excellence under
-                the Kerala University of Digital Sciences, Innovation and
-                Technology focused on blockchain education, research and
-                industry collaboration.
-              </p>
-            </div>
-
-            <div className="text-center p-6 sm:p-10 bg-white rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6 sm:mb-8">
-                <ExternalLink className="h-10 w-10 sm:h-12 sm:w-12 text-indigo-600" />
-              </div>
-              <h4 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                What is KBAIC?
-              </h4>
-              <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-                KBA Innovation Club (KBAIC) is an initiative by KBA to help
-                students explore blockchain & Web3 technologies through
-                mentorship, hands-on projects and industry exposure.
-              </p>
-            </div>
-
-            <div className="text-center p-6 sm:p-10 bg-white rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-6 sm:mb-8">
-                <Download className="h-10 w-10 sm:h-12 sm:w-12 text-cyan-600" />
-              </div>
-              <h4 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                What is KBA REC?
-              </h4>
-              <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-                KBA REC is the Rajalakshmi Engineering College chapter of the
-                KBAIC — a student-driven body that organises workshops, projects
-                and industry-academia interactions under the guidance of KBA.
-              </p>
             </div>
           </motion.div>
         </div>
